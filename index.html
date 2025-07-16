@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cardstyle.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo"><img src="logos/SRlogo.jpg">Shubham Raj</div>
+            <div class="nav-hamburger"><i class="fa-solid fa-bars" style="color: #b1b0ac;"></i></div>
+            <ul class="nav-links">
+                <!-- li></li>< -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-heading">
+            <div class="home-heading-logo"><img src="logos/SRlogos.png" alt=""></div>
+            <h1 class="home-heading-content">HI, I'M SHUBHAM RAJ<br/><span id="frontend"></span> DEVELOPER</h1>
+            <div class="home-para-content">A Result-Oriented Web Developer Building and managing Websites and Web Applications that leads to the success of the overall products</div>
+            <div class="home-btns">
+                <div class="home-project-btn"><a href="#projects">PROJECTS</a></div>
+                <div class="home-cv-btn"><a href="#">RESUME</a></div>
+            </div>
+            <div class="arrow">&#8595;</div> <!-- Unicode arrow ↓ -->
+        </div>
+        <div class="social-sidebar">
+            <div class="social-links" id="linkdin"><a href="https://www.linkedin.com/search/results/all/?keywords=shubham&origin=GLOBAL_SEARCH_HEADER&sid=iBt" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"style="color: white;" ></i></a></div>       
+            <div class="social-links" id="instagram"><a href=""><i class="fa-brands fa-instagram fa-2xl"style="color: white;" ></i></a></div>
+            <div class="social-links" id="github"><a href=""><i class="fa-brands fa-github fa-2xl"style="color: white;" ></i></a></div>
+            <div class="social-links" id="newtwitter"><a href=""><i class="fa-brands fa-square-x-twitter fa-2xl"style="color: white;" ></i></a></div>
+            <div class="social-links" id="darkbtn"><i class="fa-solid fa-circle-half-stroke fa-xl" ></i></div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-heading">ABOUT ME</div>
+        <div class="underline"></div>
+        <div class="about-content">
+            <div class="get-to-know-me">
+                <p>I'm a <b>Frontend Focused Web Developer</b> building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
+                <p>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming.</p>
+                <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+            </div>
+            <div class="about-social">
+                <div class="about-social-item"id="linkdin"><a href="https://www.linkedin.com/search/results/all/?keywords=shubham&origin=GLOBAL_SEARCH_HEADER&sid=iBt"  target="_blank"><i class="fa-brands fa-linkedin fa-xl"style="color: white;" ></i></a></div>
+                <div class="about-social-item" id="twitter"><a href=""><i class="fa-brands fa-twitter fa-xl"style="color: white;" ></i></a></div>
+                <div class="about-social-item" id="instagram"><a href=""><i class="fa-brands fa-instagram fa-xl"style="color: white;" ></i></a></div>
+                <div class="about-social-item" id="github"><a href=""><i class="fa-brands fa-github fa-xl"style="color:white;" ></i></a></div>
+            </div>
+        </div>
+        <div class="arrow">&#8595;</div> <!-- Unicode arrow ↓ -->
+    </section>
+    <section class="projects-skills-certificates">
+        <div class="p-s-c-btn">
+            <div class="p-s-c-btn-div active" onclick="setActive(this)" id="projects-btn"><a>Projects</a></div>
+            <div class="p-s-c-btn-div" id="skills-btn" onclick="setActive(this)"><a href="#skills">Skills</a></div>
+            <div class="p-s-c-btn-div" id="certificates-btn" onclick="setActive(this)"><a href="#certficates">Certificates</a></div>
+        </div>
+        <!-- <div class="underline"></div> -->
+        <div class="project-display-changer">
+            
+          
+            <div class="projects-content">
+                <div class="projects-heading" id="projects" >MY PROJECTS</div>
+                <div class="underline"></div>
+                <!-- <h2>' ' Projects That I Have Worked On ' '</h2> -->
+                <div class="envelope-container">
+                <div class="card-envelope">
+                    <div class="card-pic"><img src="logos/portfoliologo.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-link"><a href="#">github-link</a></div>
+                        <h2>Portfolio Website</h2>
+                        <p>A Fully responsive personal portfolio website.This project showcases my front-end Development skills through a modern design,smooth scroll effects and interactive elements</p>
+                        <div class="card-skills">
+                            <div class="card-skills-item">HTML</div>
+                            <div class="card-skills-item">CSS</div>
+                            <div class="card-skills-item">JS</div>
+                            <div class="card-skills-item">GSAP</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-envelope">
+                    <div class="card-pic"><img src="logos/portfoliologo.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-link"><a href="#">github-link</a></div>
+                        <h2>Portfolio Website</h2>
+                        <p>A Fully responsive personal portfolio website.This project showcases my front-end Development skills through a modern design,smooth scroll effects and interactive elements</p>
+                        <div class="card-skills">
+                            <div class="card-skills-item">HTML</div>
+                            <div class="card-skills-item">CSS</div>
+                            <div class="card-skills-item">JS</div>
+                            <div class="card-skills-item">GSAP</div>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="card-envelope">
+                    <div class="card-pic"><img src="logos/portfoliologo.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-link"><a href="#">github-link</a></div>
+                        <h2>Portfolio Website</h2>
+                        <p>A Fully responsive personal portfolio website.This project showcases my front-end Development skills through a modern design,smooth scroll effects and interactive elements</p>
+                        <div class="card-skills">
+                            <div class="card-skills-item">HTML</div>
+                            <div class="card-skills-item">CSS</div>
+                            <div class="card-skills-item">JS</div>
+                            <div class="card-skills-item">GSAP</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card-envelope">
+                    <div class="card-pic"><img src="logos/portfoliologo.png" alt=""></div>
+                    <div class="card-content">
+                        <div class="card-link"><a href="#">github-link</a></div>
+                        <h2>Portfolio Website</h2>
+                        <p>A Fully responsive personal portfolio website.This project showcases my front-end Development skills through a modern design,smooth scroll effects and interactive elements</p>
+                        <div class="card-skills">
+                            <div class="card-skills-item">HTML</div>
+                            <div class="card-skills-item">CSS</div>
+                            <div class="card-skills-item">JS</div>
+                            <div class="card-skills-item">GSAP</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-display-changer">
+            <div class="skills-content">
+                <div class="skills-heading">MY SKILLS</div>
+                <div class="underline"></div>
+                <h2>' ' Tools & Technologies That Power My Work ' '</h2>
+                <div class="skills-svg-container">
+                    <div class="skills-svg"><img src="logos/CSS.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/HTML.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/JavaScript.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/React-Dark.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/MongoDB.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/NodeJS-Dark.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/JQuery.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/Github-Dark.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/Java-Dark.svg" height="80px" width="80px" alt=""></div>
+                    <div class="skills-svg"><img src="logos/TailwindCSS-Dark.svg" height="80px" width="80px" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow">&#8595;</div> <!-- Unicode arrow ↓ -->
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-heading">CONTACT ME!</div>
+        <div class="underline"></div>
+        <div class="contact-content">
+            <div class="contact-left">
+                <div class="contact-logo"><img src="logos/SRlogo.jpg" alt=""></div>
+                <h3>Connect With Me</h3>
+                <div class="underline"></div>
+                <div class="contact-left-para">
+                    <p><i class="fa-regular fa-envelope"></i>&nbsp; raj079097@gmail.com</p>
+                    <p><i class="fa-solid fa-phone " style="color: #ffffff;"></i>&nbsp;9696924210</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Kanpur, Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="contact-right">
+                <div class="contact-form">
+                    <form action="">
+                        <div class="contact-form-item">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact-form-item">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="contact-form-item">
+                            <label for="message" >Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your Message" ></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script>
+    var typeData = new Typed(".frontend", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script> -->
+<script src="script.js"></script>
+</body>
+</html>
+<!--style="color: #c62828;-->
