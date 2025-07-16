@@ -30,11 +30,11 @@ This is my first personal portfolio website showcasing my projects, skills, and 
 /  
 ├── index.html  
 ├── style.css  
-├── cardstyle.css
+├── cardstyle.css  
 ├── script.js  
 ├── logos/  
 │ └── (SVG icons and logos)  
-├── Screenshots/
+├── Screenshots/  
 ├ └──(preview images)  
 └── README.md  
 
@@ -43,7 +43,7 @@ This is my first personal portfolio website showcasing my projects, skills, and 
 
 Feel free to connect with me:
 
-- LinkedIn: [[My linkdin profile](https://www.linkedin.com/search/results/all/?keywords=shubham&origin=GLOBAL_SEARCH_HEADER&sid=iBt)]
+- LinkedIn: [[My linkdin profile](www.linkedin.com/in/shubham-raj-0a0515357)]
 - GitHub: [[My GitHub profile](https://github.com/CSShubham)]
 - Email: [raj07909@email.com]
 
